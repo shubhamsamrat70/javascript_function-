@@ -44,6 +44,11 @@ JsUser.greetingTwo = function(){
 }
 JsUser.greetingTwo();
 
+JsUser.greetingThree = function(){
+    console.log(`hello brother , ${this["full name"]}`);
+}
+JsUser.greetingThree();
+
 
 
 
