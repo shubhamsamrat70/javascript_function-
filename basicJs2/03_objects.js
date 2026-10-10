@@ -44,18 +44,49 @@ const user = [
 
 ]
  
-console.log(user[0].id);
-console.log(user[1].name);
-// console.log(obj3)
+// console.log(user[0].id);
+// console.log(user[1].name);
+// // console.log(obj3)
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//ye batata hai ki apke paas ye property hai ya nhi True/false
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//ye batata hai ki apke paas ye property hai ya nhi True/false
+
+// const course = {
+//     coursename : "js hindi",
+//     price : "999",
+//     courseInstructor : "hitesh"
+// }
+// console.log(course.courseInstructor);
+
+// const {courseInstructor} = course
+const {courseInstructor : ins} = course//object destructuring
+console.log(ins);
+
+// const navbar = ({company}) => {
+// }
+// navbar (company = "shopmart")// ye react part hain
+
+//*****************************API Context Using Objects********************************************* */
+// {
+//     "name" : "shubham",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+
+// }
+
+// [
+//     {},
+//     {},
+//     {},
+// ]
+
+
 
 
 
