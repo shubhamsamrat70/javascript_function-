@@ -50,6 +50,14 @@ JsUser.greetingThree = function(){
 JsUser.greetingThree();
 
 
+// git remote set-url origin https://github.com/shubhamsamrat70/javascript_function-.git
+// git add .
+// git commit -m "update msg"
+// git push
+
+
+
+
 
 
 
