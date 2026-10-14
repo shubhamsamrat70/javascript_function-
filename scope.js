@@ -62,6 +62,7 @@ if (true){
 
 
 console.log(addTwo(2));// Error Because variable me function store ho ra hai to hosting se related problem hai
+                       // const ko initilize karne ke pehle call nhi kar sakte
 const addTwo = function(num){
     return num + 2
 }
